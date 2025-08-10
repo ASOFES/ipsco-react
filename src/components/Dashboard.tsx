@@ -1,7 +1,7 @@
 // Dashboard principal
 import React, { useState, useEffect } from 'react';
 import { Car, MapPin, Users, AlertTriangle, TrendingUp, Fuel } from 'lucide-react';
-import { apiService, DashboardStats } from '../services/api';
+import { apiService } from '../services/api';
 
 interface StatsCardProps {
   title: string;

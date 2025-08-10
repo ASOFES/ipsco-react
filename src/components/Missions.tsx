@@ -1,21 +1,6 @@
 // Module Missions complet
 import React, { useState, useEffect } from 'react';
-import { 
-  MapPin, 
-  Clock, 
-  User, 
-  Car, 
-  Plus, 
-  Search, 
-  Filter,
-  CheckCircle,
-  AlertCircle,
-  PlayCircle,
-  PauseCircle,
-  Eye,
-  Edit,
-  Trash2
-} from 'lucide-react';
+import { MapPin, Clock, Plus, Search, Filter, CheckCircle, AlertCircle, PlayCircle, PauseCircle, Eye, Edit, Trash2 } from 'lucide-react';
 
 interface Mission {
   id: number;
